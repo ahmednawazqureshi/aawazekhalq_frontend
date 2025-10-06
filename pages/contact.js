@@ -9,10 +9,10 @@ export default function Contact() {
 
         {/* Hero Section */}
         <section className="text-center mb-16 animate-fade-in">
-          <h1 className="text-5xl font-extrabold text-green-700 mb-2 tracking-tight">Let’s Connect</h1>
+          <h1 className="text-5xl font-extrabold text-green-700 mb-2 tracking-tight">Let's Connect</h1>
           <div className="h-1 w-20 bg-green-600 mx-auto mb-6 rounded-full" />
           <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-            Reach out to <span className="font-semibold text-green-800">Awaz-e-Khalq</span> — we’re here to serve, support, and uplift.
+            Reach out to <span className="font-semibold text-green-800">Awaz-e-Khalq</span> — we're here to serve, support, and uplift.
           </p>
         </section>
 
@@ -20,9 +20,13 @@ export default function Contact() {
         <section className="max-w-4xl mx-auto mb-20">
           <div className="bg-white border border-green-100 rounded-3xl shadow-[0_10px_40px_rgba(0,128,0,0.1)] p-8 flex flex-col md:flex-row items-center gap-6 hover:shadow-green-200 transition duration-300">
             
-            {/* Avatar Placeholder */}
-            <div className="w-32 h-32 rounded-full bg-gradient-to-tr from-green-600 to-green-400 flex items-center justify-center text-white text-3xl font-bold shadow-lg">
-              SM
+            {/* Founder Image */}
+            <div className="w-32 h-40 rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src="/images/sardar.jpeg" 
+                alt="Sardar Mushtaq Hussain"
+                className="w-full h-full object-cover"
+              />
             </div>
 
             {/* Founder Info */}
@@ -34,7 +38,30 @@ export default function Contact() {
                 Tehsil Balakot, District Mansehra, KPK
               </p>
               <p className="mt-4 text-gray-700 italic">
-                “Empowering communities through education, health, and dignity.”
+                "Empowering communities through education, health, and dignity."
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Project Manager Spotlight */}
+        <section className="max-w-4xl mx-auto mb-20">
+          <div className="bg-white border border-green-100 rounded-3xl shadow-[0_10px_40px_rgba(0,128,0,0.1)] p-8 flex flex-col md:flex-row items-center gap-6 hover:shadow-green-200 transition duration-300">
+            
+            {/* Avatar Placeholder for Project Manager */}
+            <div className="w-32 h-32 rounded-full bg-gradient-to-tr from-green-600 to-green-400 flex items-center justify-center text-white text-3xl font-bold shadow-lg">
+              MT
+            </div>
+
+            {/* Project Manager Info */}
+            <div className="text-center md:text-left">
+              <h2 className="text-2xl font-bold text-green-700 mb-1">Project Manager</h2>
+              <p className="text-xl font-semibold text-gray-800">Maria Tariq</p>
+              <p className="text-sm text-gray-600 mt-2">
+                Email: mariakhan352023@gmail.com
+              </p>
+              <p className="mt-4 text-gray-700 italic">
+                "Managing projects with dedication and excellence."
               </p>
             </div>
           </div>

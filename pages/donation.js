@@ -23,19 +23,19 @@ export default function Donation() {
   const accounts = {
     Pakistan: {
       flag: '🇵🇰',
-      bank: 'Muslim Commercial Bank',
+      bank: 'COMING SOON',
       title: 'Aawaz-e-Khalq',
-      account: '0000000000000',
-      iban: 'PK00MCBK0000000000000000',
-      branch: 'Islamabad'
+      account: 'xxxxxxxxxxxxxx',
+      iban: 'xxxxxxxxxxxxxxxxx',
+      branch: 'N/A'
     },
     USA: {
       flag: '🇺🇸',
-      bank: 'Example USA Bank',
-      title: 'Aawaz-e-Khalq (US)',
-      routing: '012345678',
-      account: '1234567890',
-      swift: 'EXUSUS33'
+      bank: 'Bank Of America',
+      title: 'Awazekhalq Foundation ',
+      routing: '052001633',
+      account: '4460 5838 0556',
+      
     },
     JazzCash: {
       flag: '🇵🇰',
