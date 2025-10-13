@@ -22,6 +22,7 @@ export default function Header() {
     { label: 'About', href: '/about' },
     { label: 'Projects', href: '/projects' },
     { label: 'Events', href: '/events' },
+    { label: 'Media', href: '/MediaGallery' },
     { label: 'Contact', href: '/contact' },
   ]
 
