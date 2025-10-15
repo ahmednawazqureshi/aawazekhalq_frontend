@@ -170,7 +170,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Email Us</h3>
                 <p className="text-green-100 text-sm mb-2">Primary Email</p>
-                <p className="text-white font-medium text-sm">aawazekhalq@gmail.com</p>
+                <p className="text-white font-medium text-sm">info.aawazekhalq@gmail.com</p>
                 <p className="text-green-100 text-sm mt-3 mb-1">Project Inquiries</p>
                 <p className="text-white font-medium text-sm">mariakhan352023@gmail.com</p>
               </div>
